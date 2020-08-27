@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="stfor.xsl" ?>
 
 <basacat>
+
   <onecat>
   <namecat>
     Кисон
@@ -12,7 +13,9 @@
   <sexcat>
     мальчик
   </sexcat>
+  <old mes="месяцев">40</old>
   </onecat>
+
    <onecat>
   <namecat>
     Киска
@@ -23,7 +26,9 @@
   <sexcat>
     девочка
   </sexcat>
+  <old mes="месяцев">50</old>
   </onecat>
+
     <onecat>
   <namecat>
     МурМурыч
@@ -34,5 +39,8 @@
   <sexcat>
     папа
   </sexcat>
+  <old mes="месяцев">82</old>
   </onecat>
+
 </basacat>
+

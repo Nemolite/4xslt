@@ -7,6 +7,7 @@
 <td align="center"><strong>Имя</strong></td>
 <td align="center"><strong>Цвет</strong></td>
 <td align="center"><strong>Кто</strong></td>
+<td align="center"><strong>Месяцев</strong></td>
 </tr>
 
 <xsl:for-each select="basacat/onecat">
@@ -18,8 +19,17 @@
 	<xsl:value-of select="colorcat"/>
 </td>
 <td>
-	<xsl:value-of select="sexcat"/></td>
+	<xsl:value-of select="sexcat"/>
+</td>
+<td>
+	<xsl:value-of select="old"/>,
+	<p style="color:red">
+	<xsl:value-of select="//old/@mes"/>
+	</p>
+</td>
 </tr>
+
+
 </xsl:for-each>
 </table>
   
