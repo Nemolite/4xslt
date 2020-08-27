@@ -7,5 +7,10 @@
     <p><xsl:value-of select="//name"/></p>
     <p><xsl:value-of select="//firstname"/></p>
      <h2 align="center" style="color:red"><xsl:value-of select="//colortest/red"/></h2>
+     
+     <h2 style="color:green"><xsl:value-of select="//spaceatribut"/></h2>
+
+      <h3><xsl:value-of select="//spaceatribut/@mag"/></h3>
+  
 </xsl:template>
 </xsl:stylesheet> 
