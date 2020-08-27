@@ -6,6 +6,6 @@
     <p><xsl:value-of select="//reliz"/></p>
     <p><xsl:value-of select="//name"/></p>
     <p><xsl:value-of select="//firstname"/></p>
-     <h2><xsl:value-of select="//colortest/red"/></h2>
+     <h2 align="center" style="color:red"><xsl:value-of select="//colortest/red"/></h2>
 </xsl:template>
 </xsl:stylesheet> 
