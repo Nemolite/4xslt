@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stfor.xsl" ?>
+
+<basacat>
+  <onecat>
+  <namecat>
+    Кисон
+  </namecat>
+  <colorcat>
+    Белый
+  </colorcat>
+  <sexcat>
+    мальчик
+  </sexcat>
+  </onecat>
+   <onecat>
+  <namecat>
+    Киска
+  </namecat>
+  <colorcat>
+    Черный
+  </colorcat>
+  <sexcat>
+    девочка
+  </sexcat>
+  </onecat>
+    <onecat>
+  <namecat>
+    МурМурыч
+  </namecat>
+  <colorcat>
+    Черный-белый
+  </colorcat>
+  <sexcat>
+    папа
+  </sexcat>
+  </onecat>
+</basacat>

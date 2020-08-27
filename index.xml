@@ -13,4 +13,11 @@
   	 
   	  Зеленый
   </spaceatribut>
+  <wraper>
+  	 <innerlev1>
+  	 	<innerlev2 RESET="goood">
+  	 		
+  	 	</innerlev2>	
+  	 </innerlev1>
+  </wraper>
 </note>

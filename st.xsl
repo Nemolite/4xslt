@@ -11,6 +11,8 @@
      <h2 style="color:green"><xsl:value-of select="//spaceatribut"/></h2>
 
       <h3><xsl:value-of select="//spaceatribut/@mag"/></h3>
+
+       <h4 style="color:pink;font-size:24pt"><xsl:value-of select="//wraper/innerlev1/innerlev2/@RESET"/></h4>
   
 </xsl:template>
 </xsl:stylesheet> 
