@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stif.xsl" ?>
+
+<basacat>
+
+  <onecat>
+  <namecat>
+    Кисон
+  </namecat>
+  <colorcat>
+    Белый
+  </colorcat>
+  <sexcat>
+    мальчик
+  </sexcat>
+  <old mes="месяцев">40</old>
+  </onecat>
+
+   <onecat>
+  <namecat>
+    Киска
+  </namecat>
+  <colorcat>
+    Черный
+  </colorcat>
+  <sexcat>
+    девочка
+  </sexcat>
+  <old mes="месяцев">50</old>
+  </onecat>
+
+    <onecat>
+  <namecat>
+    МурМурыч
+  </namecat>
+  <colorcat>
+    Черный-белый
+  </colorcat>
+  <sexcat>
+    папа
+  </sexcat>
+  <old mes="месяцев">82</old>
+  </onecat>
+
+</basacat>
+
+
+

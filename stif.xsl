@@ -2,7 +2,10 @@
 <xsl:stylesheet version = "1.0" 
      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/"> 
-  <table border="1">
+
+
+
+<table border="1">
 <tr bgcolor="#CCCCCC">
 <td align="center"><strong>Имя</strong></td>
 <td align="center"><strong>Цвет</strong></td>
@@ -12,6 +15,9 @@
 
 <xsl:for-each select="basacat/onecat">
 	 <xsl:sort select="namecat" order="descending"/>
+
+   <xsl:if test="old&gt;52">
+
 <tr bgcolor="#F5F5F5">
 <td>
 	<xsl:value-of select="namecat"/>
@@ -30,9 +36,12 @@
 </td>
 </tr>
 
+</xsl:if>
 
 </xsl:for-each>
 </table>
-  
+
+
+
 </xsl:template>
 </xsl:stylesheet> 
