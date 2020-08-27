@@ -5,5 +5,7 @@
   <reliz>27</reliz>
   <name>Sergey</name>
   <firstname>Valerevich</firstname>
-
+  <colortest>
+  	  <red>Красный</red>
+  </colortest>
 </note>
