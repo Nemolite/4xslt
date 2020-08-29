@@ -5,13 +5,9 @@
 	<form action="option1.php">
 		<p><select size="3" name="hero">
     <option>
-    	  
-        <!--
-        | Если текстовое значение элемента равно
-        | значению атрибута active его родительского элемента
-        +-->
+    	     
         <xsl:if test=". = ../@active">
-            <!-- To выводим атрибут selected -->
+           
             <xsl:attribute name="selected">selected</xsl:attribute>
         </xsl:if>
         <xsl:value-of select="."/>

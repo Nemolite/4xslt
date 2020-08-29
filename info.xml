@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="step3.xsl" ?>
+
+<result module="content" method="content" domain="example.ru" lang="ru" header="Контактная информация" title="UMI.CMS - Контактная информация" request-uri="/about/contacts/.xml" pageId="71">
+<meta>
+<keywords>umi CMS демо DEMO сайт система управление</keywords>
+<description>Контактная информация</description>
+</meta>
+<user id="14" type="sv" status="auth" login="sv"
+xlink:href="uobject://14"/>
+<parents>
+<page id="68" parentId="0" link="/about/" is-active="1" object-id="27658" type-id="10" update-time="1274273454" alt-name="about" xlink:href="upage://68">
+<basetype id="2" module="content">Страницы контента</basetype>
+<name>О магазине</name>
+</page>
+</parents>
+<page id="71" parentId="68" link="/about/contacts/" is-active="1"
+object-id="27661" type-id="826" update-time="1276599076" alt-name="contacts">
+<basetype id="2" module="content">Страницы контента</basetype>
+<name>Контактная информация</name>
+<properties>
++<group id="3366" name="common">
++<group id="3368" name="more_params">
++<group id="3372" name="site_info">
+</properties>
+</page>
+</result>
+
+
